@@ -6,7 +6,7 @@ This document provides an overview of the RESTful endpoints available in the Che
 
 All URLs referenced in the documentation have the following base:
 
-'''https://openingsdb3-c921e16c10f3.herokuapp.com/'''
+```https://openingsdb3-c921e16c10f3.herokuapp.com/```
 
 ## Endpoints
 
@@ -64,40 +64,40 @@ Responses from the API are in JSON format. Each response includes a status code 
 ## Error Handling
 
 In case of an error, the API responds with an appropriate status code and a JSON object containing an error message. For example:
-'''
+```
 {
   "message": "Error description"
 }
-'''
+```
 ## Example URLs for GET Requests
 
 ### Openings
 
 #### Get All Openings
-'''
+```
 GET http://localhost:8080/openings
-'''
+```
 
 #### Get Opening by Name (Example: Sicilian Defense)
-'''
+```
 GET http://localhost:8080/openings/name/Sicilian%20Defense
-'''
+```
 
 ### Variations
 
 #### Get All Variations for a Specific Opening (Assuming an ID for Sicilian Defense)
 Replace `:openingId` with the actual ID of the Sicilian Defense opening.
-'''
+```
 GET http://localhost:8080/variations/opening/openingId
-'''
+```
 #### Get All Variations for an Opening by Variation Name (Example: Sicilian Defense)
-'''
+```
 GET http://localhost:8080/variations/name/Sicilian%20Defense%3A%20Closed%20Variation
-'''
+```
 # Retrieve All Variations by Opening Name
-'''
+```
 GET http://localhost:8080/variations/Sicilian%20Defense/variations
-'''
+```
 
 Note: In the URLs, spaces are replaced with `%20` and special characters like colons (`:`) are URL-encoded (for example, `%3A` for a colon) to ensure proper handling by the server.
 
