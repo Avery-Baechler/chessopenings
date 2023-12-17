@@ -6,8 +6,7 @@ This document provides an overview of the RESTful endpoints available in the Che
 
 All URLs referenced in the documentation have the following base:
 
-
-Note: The base URL may differ depending on the deployment and environment setup of the API.
+'''https://openingsdb3-c921e16c10f3.herokuapp.com/'''
 
 ## Endpoints
 
@@ -65,12 +64,11 @@ Responses from the API are in JSON format. Each response includes a status code 
 ## Error Handling
 
 In case of an error, the API responds with an appropriate status code and a JSON object containing an error message. For example:
-
-```json
+'''
 {
   "message": "Error description"
 }
-
+'''
 ## Example URLs for GET Requests
 
 ### Openings
