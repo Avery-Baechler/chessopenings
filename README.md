@@ -4,7 +4,11 @@ This document provides an overview of the RESTful endpoints available in the Che
 
 
 
-https://github.com/Avery-Baechler/chessopenings/assets/36283359/861e965c-6326-4ee1-9d3a-fbdfe8c85d81
+
+https://github.com/Avery-Baechler/chessopenings/assets/36283359/3c0d0fe2-32cc-4b64-a19e-eac3956f3a5b
+
+
+
 
 
 
