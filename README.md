@@ -2,7 +2,11 @@
 
 This document provides an overview of the RESTful endpoints available in the Chess Openings API. The API allows clients to interact with a database of chess openings and their variations.
 
-https://www.youtube.com/watch?v=R3FGCjwwJh0
+
+
+https://github.com/Avery-Baechler/chessopenings/assets/36283359/861e965c-6326-4ee1-9d3a-fbdfe8c85d81
+
+
 
 ## Base URL
 
